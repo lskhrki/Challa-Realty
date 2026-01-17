@@ -1,0 +1,133 @@
+/* ---------- RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- BASE ---------- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #ffffff;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+/* ---------- HEADER / HERO ---------- */
+.hero {
+    background: #ffffff;
+    padding: 80px 20px 60px;
+    text-align: center;
+    border-bottom: 4px solid #22c55e; /* green accent */
+}
+
+.logo {
+    width: 450px;
+    height: auto;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-size: 2.6rem;
+    color: #f97316; /* orange */
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #15803d; /* darker green */
+}
+
+/* ---------- NAVIGATION ---------- */
+.nav {
+    text-align: center;
+    padding: 14px 10px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.nav a {
+    margin: 0 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #1f2933;
+    transition: color 0.2s ease;
+}
+
+.nav a:hover {
+    color: #f97316; /* orange hover */
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.section h2 {
+    font-size: 1.6rem;
+    color: #f97316;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #22c55e; /* green underline */
+    margin-top: 6px;
+}
+
+.section p {
+    margin-top: 10px;
+    color: #374151;
+}
+
+/* ---------- LISTS ---------- */
+.section ul {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.section li {
+    padding: 6px 0;
+    position: relative;
+    padding-left: 18px;
+}
+
+.section li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #22c55e;
+    font-size: 0.9rem;
+}
+
+/* ---------- LINKS ---------- */
+.section a {
+    color: #22c55e;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- CONTACT ---------- */
+#contact p {
+    margin-top: 8px;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+}
